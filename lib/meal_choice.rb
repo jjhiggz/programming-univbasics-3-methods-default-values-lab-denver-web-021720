@@ -5,5 +5,7 @@ def meal_choice (veg1,veg2,protein="meat")
 puts "A plate of #{protein} with #{veg1} and #{veg2}."
 puts "What a nutritious meal!"
 end
-veg
-puts meal_choice()
+veg1="Apple"
+veg2="pear"
+meat="tofu"
+puts meal_choice(veg1,veg2,protein="meat")
