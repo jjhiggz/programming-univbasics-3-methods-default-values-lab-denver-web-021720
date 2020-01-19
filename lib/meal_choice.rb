@@ -4,3 +4,7 @@ def meal_choice(veg1, veg2, protein='meat')
   puts meal
   return meal
 end
+
+veg1 = "apples"
+veg2 = "pears"
+meat = "tofu"
